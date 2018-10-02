@@ -24,7 +24,7 @@ spec:
       containers:
       - args:
         - --namespace=default
-        - --keep-successful=6
+          --keep-successful=6
         image: quay.io/lwolf/kube-cleanup-operator
         imagePullPolicy: Always
         name: cleanup-operator
